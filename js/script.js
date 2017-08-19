@@ -1,8 +1,7 @@
-window.onload = function() {
+function carga() {
+	var btn = document.querySelector('.btn');
 
-	var btn = document.querySelector( '.btn' );
-
-	var btnFront = btn.querySelector( '.btn-front' ),
+	btnFront = btn.querySelector( '.btn-front' ),
 		btnNo = btn.querySelector( '.btn-back .no' );
 
 	btnFront.addEventListener( 'click', function( event ) {
